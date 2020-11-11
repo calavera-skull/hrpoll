@@ -1,3 +1,2 @@
-<ul *ngFor="let question of questions">
-  <li style="list-style-type: none">{{ question.id }}: {{ question.text }}</li>
-</ul>
+<app-question-item *ngFor="let question of questions" [question] = "question">
+</app-question-item>
