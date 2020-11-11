@@ -1,0 +1,8 @@
+<p>
+  {{ question.id }}: {{ question.text }}
+  <label>
+    <input type="text" class="text" placeholder="Введите ответ...">
+  </label>
+  <button (click)="Delete(question)">x</button>
+  <button (click)="Confirm(question)">v</button>
+</p>
